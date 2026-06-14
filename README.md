@@ -1,168 +1,97 @@
-<div align="center">
-  <a href="#-english">🇺🇸 <b>English</b></a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="#-русский">🇷🇺 <b>Русский</b></a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://github.com/Andrey-Good/resume/blob/main/cv/CV_Andrey_Urakov_AI_Engineer_en.pdf" target="_blank">📄 <b>CV (PDF)</b></a>
-</div>
-
----
-
-<div id="-english"></div>
-
 # Andrey Urakov
 
-> **Applied AI • ML Engineering • Local-First Systems • Reliability Mindset**
+Applied AI student at UrFU, focused on machine learning, evaluation, and local-first engineering.
 
-Student at UrFU (Applied AI, 2024–2028).
+[CV (English)](https://github.com/Andrey-Good/resume/blob/main/cv/CV_Andrey_Urakov_AI_Engineer_en.pdf) |
+[CV (Russian)](https://github.com/Andrey-Good/resume/blob/main/cv/CV_Andrey_Urakov_AI_Engineer_ru.pdf) |
+[Telegram](https://t.me/andrei_urakov) |
+[Email](mailto:urakov18.a@gmail.com)
 
-I build things that don't break in real-world scenarios. I focus on ML pipelines and systems with strict specifications and predictable behavior. No "it works on my machine" magic.
+## Stack
 
-**Goals:** Studies, but I am open to interesting offers — from helping with a cool project to joining a startup (or launching one).
+- **Languages:** Python (Multiprocessing, AsyncIO, Typer), SQL (SQLite)
+- **ML/Data:** PyTorch, Classical ML (linear models, SVM/kernels, Bayesian methods, PCA), Model Evaluation, Data Annotation
+- **Engineering:** Git, System Design (Local-First systems, Event-driven), Architecture Patterns (IPC, Queues), Windows
 
----
+## Selected Projects
 
-### ⚡ Principles
-* **Reliability:** I like systems that recover from errors. State must be transparent, not magical.
-* **Architecture First:** I design the data flow and structure before writing code. I prefer explicit logic over "figuring it out along the way".
-* **Tech Coordination:** Coordinated development in small teams (4-5 people): code reviews, architectural decisions, and integration quality control.
+### [Active Learning SDK](https://github.com/Andrey-Good/active-learning-orchestrator)
 
----
+SDK and benchmark workflow for active learning experiments on text-classification datasets.
 
-### 🧰 Tech Stack
-* **Languages:** Python (AsyncIO / Multiprocessing), SQL (SQLite)
-* **ML/Data:** PyTorch, CNNs, LLM integrations, Data Annotation
-* **Engineering:** Git, Linux (WSL environment), Event-driven, IPC/Queues
+- Owned the project idea, product contract, SDK workflow, evaluation design, and acceptance criteria.
+- Selected acquisition strategies for uncertainty, diversity, class/group balance, and random baselines.
+- Researched calibration and Temperature Scaling; translated findings into benchmark criteria with ECE/NLL/Brier metrics and calibration-aware stop checks.
 
----
+### [Local-First AI Agent Hub](https://github.com/Andrey-Good/agent-orchestrator-rfc)
 
-### 💻 The Lab (Hardware Constraints)
-My environment for testing and local training. I optimize my code to run here.
+Architecture RFC for a local-first hub for autonomous AI agents.
 
-| Resource | Spec |
-| :--- | :--- |
-| **GPU** | RTX 3060 Ti (8GB) |
-| **RAM** | 32 GB DDR4 |
-| **OS** | WSL2 / Ubuntu |
+- Authored the Blueprint + Spec for architecture, business logic, and reliability acceptance criteria.
+- Designed failure recovery, task scheduling with SQLite WAL, isolated execution with uv, and the Reconcile Loop pattern.
+- Separated business logic from API behavior and designed hybrid storage for metadata and heavy artifacts.
 
----
+### Melanoma Detection System
 
-### 🛠 Selected Projects
+CNN-based image classification project optimized for mobile inference.
 
-#### [Dennett: Local-First AI Agent Hub](https://github.com/Andrey-Good/Dennett-AI-Agent-Hub)
-*Role: Architecture Author & Tech Lead*
-A system for autonomous agents that does not crash easily.
-* **Architecture:** Designed a **Reconcile Loop** to restore state after restarts.
-* **Safety:** Task scheduler uses **SQLite WAL** (atomic operations) to prevent data corruption.
-* **Performance:** Hybrid storage — metadata in DB, large files in the file system.
-* **UI:** Prototype (WIP); main logic is in the Backend/API.
+- Led a team project through scope, delivery, and project defense.
+- Implemented the training cycle, data augmentation, and class-imbalance mitigation.
+- Converted the model to ONNX and quantized it for mobile inference.
 
-#### [Mr. Mole: Melanoma Detection System](https://github.com/Andrey-Good/Mr.-Mole)
-*Role: ML Engineer*
-Image classification optimized for simple hardware.
-* **Engineering:** Full cycle of CNN training. Converted to **ONNX** and quantized for mobile CPU/NPU.
-* **Data:** Data augmentation and fixing class imbalance.
-* **Result:** 1st place at UrFU project defense (98/100).
+### [Review Summarizer Extension](https://github.com/Andrey-Good/RevAI)
 
-#### [RevAI: Review Summarizer Extension](https://github.com/Andrey-Good/RevAI)
-*Role: Backend Lead*
-Chrome Extension (Manifest v3) for content summary.
-* **Optimization:** Implemented caching on the backend to save LLM tokens (money) on duplicate requests.
-* **Core:** Custom DOM-parser to extract text from pages.
+Browser extension with backend proxying and request-level caching for LLM-based summarization.
+
+- Developed the Manifest v3 extension structure, custom DOM parser, scripts, and UI binding.
+- Implemented backend request proxying and hash-based caching to reduce latency and costs.
 
 ---
-
-### 🧠 Engineering Mindset
-1.  **Simplicity > Magic.** Explicit logic is better than complex hidden links.
-2.  **Failure Modes.** Every feature starts with a question: "How will this break, and how do we fix it automatically?"
-3.  **Pragmatism.** Performance is important, but correct data is more important.
-
----
-
-### 📡 Contact
-Please provide context when writing.
-
-* **Telegram:** [@andrey_urakov_ml](https://t.me/andrey_urakov_ml)
-* **Email:** urakov18.a@gmail.com
-
-<br>
-<br>
-<br>
-<br> ---
-
-<div id="-русский"></div>
 
 # Андрей Ураков
 
-> **Applied AI • ML Engineering • Local-First Systems • Reliability Mindset**
+Студент УрФУ по направлению прикладного искусственного интеллекта. Интересуюсь машинным обучением, evaluation и local-first engineering.
 
-Студент УрФУ (Прикладной ИИ, 2024–2028).
+[CV (English)](https://github.com/Andrey-Good/resume/blob/main/cv/CV_Andrey_Urakov_AI_Engineer_en.pdf) |
+[CV (Russian)](https://github.com/Andrey-Good/resume/blob/main/cv/CV_Andrey_Urakov_AI_Engineer_ru.pdf) |
+[Telegram](https://t.me/andrei_urakov) |
+[Email](mailto:urakov18.a@gmail.com)
 
-Делаю вещи, которые не разваливаются от первого же реального сценария. Строю ML-пайплайны и прикладные системы с упором на воспроизводимость, жесткие спецификации и предсказуемое поведение, а не на "вроде работает".
+## Стек
 
-**Цели:** учёба, но открыт к любым интересным предложениям — от помощи в интересном проекте до участия/работы в стартапе (или совместного запуска).
+- **Языки программирования:** Python (Multiprocessing, AsyncIO, Typer), SQL (SQLite)
+- **ML/Data:** PyTorch, Classical ML (linear models, SVM/kernels, Bayesian methods, PCA), Model Evaluation, Data Annotation
+- **Engineering:** Git, System Design (Local-First systems, Event-driven), Architecture Patterns (IPC, Queues), Windows
 
----
+## Избранные проекты
 
-### ⚡ Принципы работы
-* **Reliability:** Люблю системы с восстановлением после сбоев и конкурентным выполнением задач. Состояние должно быть прозрачным, а не "магическим".
-* **Architecture First:** Продумываю архитектуру и потоки данных до написания кода. Предпочитаю сначала спроектировать, потом кодить, чтобы не переписывать ядро трижды.
-* **Tech Coordination:** Координировал разработку в небольших группах (4-5 человек): архитектурные решения, код-ревью и контроль качества интеграции.
+### [Active Learning SDK](https://github.com/Andrey-Good/active-learning-orchestrator)
 
----
+SDK и benchmark workflow для active learning экспериментов на text-classification datasets.
 
-### 🧰 Стек
-* **Languages:** Python (AsyncIO / Multiprocessing), SQL (SQLite)
-* **ML/Data:** PyTorch, CNNs, LLM integrations, Data Annotation
-* **Engineering:** Git, Linux (WSL environment), Event-driven подход, IPC/Queues
+- Отвечал за идею проекта, product contract, SDK workflow, evaluation design и acceptance criteria.
+- Выбрал acquisition strategies для uncertainty, diversity, class/group balance и random baselines.
+- Исследовал calibration и Temperature Scaling; перевел выводы в benchmark-критерии с ECE/NLL/Brier metrics и calibration-aware stop checks.
 
----
+### [Local-First AI Agent Hub](https://github.com/Andrey-Good/agent-orchestrator-rfc)
 
-### 💻 The Lab (Hardware Constraints)
-Моя среда для тестов и локального обучения. Ориентир по ограничениям, под которые я оптимизирую обучение/инференс и систему в целом.
+Architecture RFC для local-first хаба автономных AI-агентов.
 
-| Resource | Spec |
-| :--- | :--- |
-| **GPU** | RTX 3060 Ti (8GB) |
-| **RAM** | 32 GB DDR4 |
-| **OS** | WSL2 / Ubuntu |
+- Автор Blueprint + Spec для архитектуры, бизнес-логики и reliability acceptance criteria.
+- Спроектировал failure recovery, task scheduling с SQLite WAL, isolated execution на uv и Reconcile Loop pattern.
+- Отделил business logic от API behavior и спроектировал hybrid storage для metadata и тяжелых artifacts.
 
----
+### Melanoma Detection System
 
-### 🛠 Избранные проекты
+CNN-based image classification проект, оптимизированный для mobile inference.
 
-#### [Dennett: Local-First AI Agent Hub](https://github.com/Andrey-Good/Dennett-AI-Agent-Hub)
-*Role: Architecture Author & Tech Lead*
-Система для автономных агентов, устойчивая к падениям.
-* **Architecture:** Спроектировал **Reconcile Loop** для приведения системы к целевому состоянию при перезапуске.
-* **Safety:** Планировщик задач на базе **SQLite WAL** (атомарные операции) для защиты от гонок данных и коррупции файлов.
-* **Performance:** Гибридное хранение — метаданные в ACID БД, блобы в файловой системе.
-* **UI:** Прототип интерфейса (WIP); основная функциональность — в backend/API.
+- Вел командный проект через scope, delivery и project defense.
+- Реализовал training cycle, data augmentation и class-imbalance mitigation.
+- Конвертировал модель в ONNX и квантизовал ее для mobile inference.
 
-#### [Mr. Mole: Melanoma Detection System](https://github.com/Andrey-Good/Mr.-Mole)
-*Role: ML Engineer*
-Классификация изображений, оптимизированная под слабое железо.
-* **Engineering:** Полный цикл обучения CNN. Конвертация в **ONNX** и квантизация для запуска на мобильных CPU/NPU.
-* **Data:** Пайплайн аугментации и устранение дисбаланса классов.
-* **Result:** 1-е место на защите проектов УрФУ (98/100).
+### [Review Summarizer Extension](https://github.com/Andrey-Good/RevAI)
 
-#### [RevAI: Review Summarizer Extension](https://github.com/Andrey-Good/RevAI)
-*Role: Backend Lead*
-Расширение (Manifest v3) для саммаризации контента.
-* **Optimization:** Реализовал кэширование (хэширование запросов) на бэкенде, чтобы не жечь токены LLM на дубликаты.
-* **Core:** Кастомный DOM-парсер для извлечения полезной нагрузки со страниц.
+Browser extension с backend proxying и request-level caching для LLM-based summarization.
 
----
-
-### 🧠 Инженерное мышление
-1.  **Простота > Магия.** Явные инварианты лучше сложных неявных связей.
-2.  **Failure Modes.** Любая фича начинается с вопроса: "Как это сломается и как мы это починим автоматически?"
-3.  **Pragmatism.** Производительность важна, но корректность данных важнее.
-
----
-
-### 📡 Контакт
-Если пишешь по делу — сразу давай контекст.
-
-* **Telegram:** [@andrey_urakov_ml](https://t.me/andrey_urakov_ml)
-* **Email:** urakov18.a@gmail.com
+- Разработал Manifest v3 extension structure, custom DOM parser, scripts и UI binding.
+- Реализовал backend request proxying и hash-based caching для снижения latency и costs.
