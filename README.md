@@ -3,7 +3,7 @@
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="#-русский">🇷🇺 <b>Русский</b></a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://github.com/Andrey-Good/resume/blob/6f6b55da3482d7422690e70800699364ae9cd0d6/CV_Andrey_Urakov_AI_Engineer_vGH.pdf" target="_blank">📄 <b>CV (PDF)</b></a>
+  <a href="https://github.com/Andrey-Good/resume/blob/main/cv/CV_Andrey_Urakov_AI_Engineer_en.pdf" target="_blank">📄 <b>CV (PDF)</b></a>
 </div>
 
 ---
